@@ -65,7 +65,6 @@ function produceData(dataset_index) {
 
             innerStart_X += innerDiv
         }
-
         return [group1_x, group1_y, group2_x, group2_y]
     } else if (dataset_index == 1) {
         var pointsCluster = datasize / 2
